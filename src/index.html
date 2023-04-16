@@ -1,99 +1,567 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Haziq Ali | Software Engineer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Personal Portfolio" />
+	<meta name="keywords" content="portfolio, personal website, software engineer, ui, ux, designer" />
+	<meta name="author" content="haziq ali" />
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <main>
-        <article class="box">
-            <h1>Your Name</h1>
-            <div><a href="mailto:your.email@example.com">your-email@example.com</a></div>
-            
-            <section class="box">
-                <h2>
-                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                    Social media
-                </h2>
-                <ul>
-                    <li><a href="https://github.com/<handle>">@github_handle</a></li>
-                    <li><a href="https://linkedin.com/in/<handle>">@linkedin_handle</a></li>
-                    <li><a href="https://twitter.com/<handle>">@twitter_handle</a></li>
-                </ul>    
-            </section>
-            
-            <section class="box">
-                <div class="education">
-                    <h2>
-                        <i class="fa fa-certificate" aria-hidden="true"></i>
-                        School name
-                    </h2>
-                    <h3>Major</h3>
-                    <ul>
-                        <li>GPA: 4.0</li>
-                        <li>Years</li>
-                    </ul>
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<h1><span>Haziq Ali</span></h1>
+							<h3><span>Software Engineer / UI/UX Designer / Microsoft Learn Student Ambassador</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="https://www.instagram.com/haziq_bangash"><i class="icon-instagram2"></i></a></li>
+									<li><a href="https://github.com/haziq-bangash"><i class="icon-github2"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/haziq-ali-16bb791bb"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="https://www.behance.net/haziqali3"><i class="icon-behance2"></i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Haziq Ali</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+ 92 315 5341713</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">codewithhaziq@gmail.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">haziqbangash.vercel.app</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">Islamabad, Pakistan</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello There!</h2>
+					<p>I am a Full Stack Web Developer based in Islamabad, Pakistan. My expertise lies in Laravel and MERN Stack. I have a serious passion for UI effects, animations and creating dynamic, intuitive Web apps. I love to work on latest technologies like Machine Learning, Cloud Computing etc.</p>
+					<p>I believe Web Development is a great means for these technologies to reach masses and benefit them with incredible web services using these technologies. I started my journey as a developer in early 2021, and since then I've worked and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious and perpetually working my chops one design problem at a time.</p>
+                    <p>As a technical community leader, my motivation stems from my passion for technology and my desire to give back to the community. I believe that sharing knowledge and experience is essential for the growth and development of the industry, and I am committed to fostering an environment of collaboration and learning. Being a technical community leader allows me to connect with like-minded individuals, share my expertise, and inspire others to pursue their passion for technology. By supporting and empowering others, I hope to contribute to the advancement of the industry and create a positive impact on the lives and careers of those around me.</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://www.instagram.com/haziq_bangash"><i class="icon-instagram2"></i></a></li>
+                            <li><a href="https://github.com/haziq-bangash"><i class="icon-github2"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/haziq-ali-16bb791bb"><i class="icon-linkedin2"></i></a></li>
+                            <li><a href="https://www.behance.net/haziqali3"><i class="icon-behance2"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Software Engineer</h3>
+									<span class="company">BxTrack Solutions - 2022 - Current</span>
+								</div>
+								<div class="timeline-body">
+									<p>In this role,I built lo latency, high performance scalable systems, design, implement, and scale new APIs, and solve interesting scaling problems <br>
+                                        Worked alongside product managers to build B2C and B28 web-apps <br>
+                                        Built a fully functional Web apps from mock designs and wire frames.<br>
+                                        Reviewed project specifications and designed technology solutions that met or exceeded performance expectations.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Freelancer - Web Developer</h3>
+									<span class="company">Upwork/Fiverr - 2021 - Present</span>
+								</div>
+								<div class="timeline-body">
+									<p>
+                                        Developed a fully working ecommerce sites according to client's needs.
+                                        Upload forms on websites and track users' request, comment, and complaints.
+                                        Troubleshoot problems in code and maintain existing system.
+                                        Assist in the designing, development, and deployment of interactive projects. 
+                                        Wrote server-side and client-side code for projects using PHP, HTML, CSS and JavaScript. 
+                                        Developed back-end components to connect applications with web services. 
+                                        Configured and deployed existing and future REST APIs, integrating with third-party APIs.
+                                    </p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Software Engineer Trainee</h3>
+									<span class="company">NCTP - 2020 - 2021</span>
+								</div>
+								<div class="timeline-body">
+									<p>A one year software engineering full-stack web development training program.</p>
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachelors Degree</h3>
+									<span class="company">National University of Modern Languages - 2020 - 2024</span>
+								</div>
+								<div class="timeline-body">
+									<p><strong>GPA:</strong>  3.34/4.00</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- <div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Services</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-paintbrush"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Design</h3>
+								<p>My web design service provides customized and user-friendly websites that effectively represent the client's brand and meet their business goals.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bargraph"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Development</h3>
+								<p>I offer custom-built websites and web applications, utilizing the latest web technologies to ensure optimal functionality and performance.</p>
+							</div>
+						</div>
+					</div>
+                    <div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-paintbrush"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>UI/UX Design</h3>
+								<p>My UI/UX design service provides intuitive and visually appealing interfaces, utilizing design principles and user research to enhance the user experience.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div class="row row-pb-md">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>MySQL</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>ReactJS</strong>70%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="75"><span><strong>Vue JS</strong>75%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Laravel</strong>90%</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Database Management Software</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Project Management</span><span class="value-right">79%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="79" aria-valuemin="0" aria-valuemax="100" style="width:79%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Software Development</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">Designing and Prototyping</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Figma</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Python</span><span class="value-right">75%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">jQuery</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="animate-box mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Certifications</h2>
                 </div>
-            </section>
+            </div>
+            <!-- certifications -->
+            <div class="row">
+                <div class="col-md-4 text-center rounded p-3">
+                    <div>
+                        <p><strong>Data Visualization By FreeCodeCamp</strong></p>
+                        <p>FreeCodeCamp</p>
+                    </div>
+                    <p><a target="_blank" href="https://freecodecamp.org/certification/haziq/data-visualization">Link</a></p>
+                </div>
+                <div class="col-md-4 text-center rounded p-3">
+                    <div>
+                        <p><strong>Python (Basic) Certificate</strong></p>
+                        <p>HackerRank</p>
+                    </div>
+                    <p><a target="_blank" href="https://www.hackerrank.com/certificates/0bc6acc6b8c3">Link</a></p>
+                </div>
+                <div class="col-md-4 text-center rounded p-3">
+                    <div>
+                        <p><strong>SQL (Intermediate) Certificate</strong></p>
+                        <p>HackerRank</p>
+                    </div>
+                    <p><a target="_blank" href="https://www.hackerrank.com/certificates/a1e8e6d0cb6f">Link</a></p>
+                </div>
+                <div class="col-md-4 text-center rounded p-3">
+                    <div>
+                        <p><strong>Software Engineering Virtual Experience Program</strong></p>
+                        <p>BlackBird Austrailia</p>
+                    </div>
+                    <p><a target="_blank" href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Blackbird%20Australia/8XSySTLv68WYeFhke_Blackbird%20Australia_GWtk4R9CwxsN5Gmsv_1680256130958_completion_certificate.pdf">Link</a></p>
+                </div>
+                <div class="col-md-4 text-center rounded p-3">
+                    <div>
+                        <p><strong>JavaScript Algorithms and Data Structures</strong></p>
+                        <p>FreeCodeCamp</p>
+                    </div>
+                    <p><a target="_blank" href="https://freecodecamp.org/certification/haziq/javascript-algorithms-and-data-structures">Link</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <section class="box">
-                <h2>
-                    <i class="fa fa-check" aria-hidden="true"></i>
-                    Skills
-                </h2>
-                <ul>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>Visual Studio Code</li>
-                </ul>
-            </section>
-        </article>
-        <article class="box">
-            <section class="box">
-                <h2>
-                    <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    Experience
-                </h2>
-                <h3>Microsoft Learn Student Ambassador</h3>
-                <ul>
-                    <li>Some skill</li>
-                    <li>Another skill</li>
-                </ul>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-building" aria-hidden="true"></i>
-                    Internships
-                </h2>
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Workshops & Events</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpeg);">
+						<div class="desc">
+							<h3>Figma Workshop</h3>
+							<span>In collaboration with BxTrack Solutions & Computer Science Society - Comsats Islamabad</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-                <h3>Company name</h3>
-                <ul>
-                    <li>Accomplishment</li>
-                    <li>Another accomplishment</li>
-                </ul>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
-                    Projects
-                </h2>
-                
-                <h3>Great hackathon</h3>
-                <div>This was a great hack!</div>
-                <ul>
-                    <li>Cool technology used</li>
-                    <li>Prize won</li>
-                </ul>
-            </section>
-        </article>
-    
-    </main>
-</body>
+	<!-- <div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Post on Medium</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Photoshoot On The Street</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Surfing at Philippines</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Capture Living On Uderwater</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Interested in collaborating with me?</h2>
+					<p>I’m always open to discussing product design work or partnership opportunities.</p>
+					<p><a href="mailto:codewithhaziq@gmail.com" class="btn btn-default btn-lg">Start a Conversation</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div id="fh5co-consult">
+		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+			<div class="overlay"></div>
+		</div>
+		<div class="choose animate-box">
+			<h2>Contact</h2>
+			<form action="#">
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="email" class="form-control" placeholder="Your email address">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send Message" class="btn btn-primary">
+				</div>
+
+			</form>	
+		</div>
+	</div> -->
+
+	<!-- <div id="map" class="fh5co-map"></div>
+	</div> -->
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy; 2023 | All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
